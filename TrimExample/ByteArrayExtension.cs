@@ -25,8 +25,6 @@ namespace TrimExample
                     break;
                 }
             }
-            if (!removedFirst)
-                return new byte[] { };
 
             for (int i = list.Count - 1; i >= 0; i--)
             {
