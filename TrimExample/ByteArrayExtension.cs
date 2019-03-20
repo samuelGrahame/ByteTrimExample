@@ -14,8 +14,7 @@ namespace TrimExample
                 return data;
 
             var list = new List<byte>(data);
-            bool removedFirst = false;
-
+            
             for (int i = 0; i < list.Count; i++)
             {
                 if(!char.IsWhiteSpace((char)list[i]))
