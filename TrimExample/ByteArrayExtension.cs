@@ -20,7 +20,7 @@ namespace TrimExample
                 if(!char.IsWhiteSpace((char)list[i]))
                 {
                     list.RemoveRange(0, i);
-                    removedFirst = true;
+ 
                     break;
                 }
             }
